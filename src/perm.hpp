@@ -5,5 +5,11 @@
 #include <vector>
 #include <string>
 
-typedef tree<std::string, std::vector<std::string>> permtree;
-permtree get_perms(std::vector<std::string>);
+struct permspace {
+	struct perm {
+		std::vector<std::vector<std::vector<phon_str>>> matrix;
+	};
+	std::vector<perm> cmus;
+};
+
+permspace& make_permspace(const std::vector<std::vector<std::string>>&);

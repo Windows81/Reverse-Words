@@ -1,4 +1,4 @@
-
+/*
 #include <set>
 #include <vector>
 #include <iostream>
@@ -35,3 +35,4 @@ int main()
 			if (hash(i1, i->a))
 				std::cout << i1 << ' ' << i->a[0] << ' ' << i->a[1] << ' ' << i->a[2] << std::endl;
 }
+*/

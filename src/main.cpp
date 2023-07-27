@@ -7,6 +7,6 @@ int main()
 {
 	make_cmu();
 	make_phon();
-	get_perms(encode("abboud base")[0]);
+	make_permspace(encode("abboud base"));
 	return 0;
 }
